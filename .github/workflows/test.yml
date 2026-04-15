@@ -17,6 +17,6 @@ jobs:
     - name: Run sl analyze 1
       shell: bash
       run: |
-        sl analyze --verbose --wait --app "${GITHUB_REPOSITORY#*/}" .
+        sl analyze --verbose --wait --app "QwietAI-HarnessMulti" .
       env:
         SHIFTLEFT_ACCESS_TOKEN: eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NjE2OTIwODIsImlzcyI6IlNoaWZ0TGVmdCIsIm9yZ0lEIjoiOTYxOGE0ZDQtMzBhOS00OTBhLWI2OWQtYzE5OWJhMWI5YjU1IiwidXNlcklEIjoiNzA1NDdjZTMtYWVhYy00MGNiLTg4MjctOWRhMTg0MzZmNDNlIiwiYXBpZCI6ImF1dGgwIiwic2NvcGVzIjpbInNlYXRzOndyaXRlIiwiZXh0ZW5kZWQiLCJhcGk6djIiLCJ1cGxvYWRzOndyaXRlIiwibG9nOndyaXRlIiwicGlwZWxpbmVzdGF0dXM6cmVhZCIsIm1ldHJpY3M6d3JpdGUiLCJwb2xpY2llczpjdXN0b21lciJdfQ.QnLk0lX0ogwwHPTkN0IAG9Lu4vWHB96VaabH-LH3H6PisqINuLfhqKyfxipxP2LO3t14_ulFoFD-4Bm1xWHdx1EH2OuoYQDQnFwlyY34wFb5Jqppg4kaX8vMVElozDeTTsu71HG59vUsEyuywvwDrhpCavgecpwO8smLtd-sQUQFcKjmS4jZV7tZWGT1sgtkysOJur9Lb1Phnt7BBoFqbLOAKInvdpkqNCa3N4ytVU5UuKQG9HMGJ_POiSKwgyQ8esumFteVGvozwQrltSQqzC8eEsR7yesMDCKeBGFLT-31jn830lEHXgSRX_fBTLGCR5IklA1Twcc5oHQXJCTOlw
